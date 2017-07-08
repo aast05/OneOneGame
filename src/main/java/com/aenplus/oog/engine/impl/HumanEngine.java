@@ -23,6 +23,7 @@ public class HumanEngine implements ResponseEngine {
 			Cell cell = newGame.getTable().getCells().get(value);
 			if(cell.isEmpty()){
 				cell.setPlayer(player);
+				newGame.setLastPlayer(player);
 				return newGame;
 			}
 			else{

@@ -5,5 +5,5 @@ import com.aenplus.oog.game.Game;
 
 public interface GameEvaluator {
 
-	public int evaluate(Game game, Player player);
+	public int evaluate(Game game, Player player, int depth);
 }

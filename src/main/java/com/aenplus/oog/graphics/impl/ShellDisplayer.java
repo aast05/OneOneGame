@@ -7,7 +7,7 @@ import com.aenplus.oog.game.Game;
 import com.aenplus.oog.graphics.GameDisplayer;
 import com.aenplus.oog.table.Cell;
 
-public class Displayer implements GameDisplayer {
+public class ShellDisplayer implements GameDisplayer {
 
 	public void display(Game game) {
 		String res = "| ";

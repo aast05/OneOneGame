@@ -56,11 +56,5 @@ public class Table implements Cloneable {
 			e.printStackTrace();
 		}
 		return null;
-		/*
-		 * List<Cell> newCells = new ArrayList<Cell>(); Collections.copy(cells,
-		 * newCells); Table newTable = new Table(row, column);
-		 * newTable.setCells(newCells); return newTable;
-		 */
-
 	}
 }
